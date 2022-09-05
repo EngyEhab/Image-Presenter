@@ -1,0 +1,44 @@
+.item
+{
+    position:relative;
+}
+.item img
+{
+    cursor: pointer;
+}
+.item-caption
+{
+    background-color: #fff;
+    width: 80%;
+    text-align:center;
+    position:absolute;
+    bottom: 10px;
+    left: 10%;
+
+}
+
+.lightBoxContainer
+{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.lightBoxItem
+{
+    width: 45%;
+    height: 75vh;
+    background-image: url('../images/bag1.jpg');
+    background-size: 100% 100%;
+    
+}
+
+.lightBoxItem i
+{
+    font-size: 24px;
+    color: lightgray;
+    cursor: pointer;
+}
